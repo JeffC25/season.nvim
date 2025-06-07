@@ -105,15 +105,15 @@ local function set_groups()
     DiffChange = { bg = colors.brighterBlue },
 
     -- LSP
-    DiagnosticError = { fg = colors.red },
-    DiagnosticWarn = { fg = colors.orange },
-    DiagnosticInfo = { fg = colors.black },
-    DiagnosticHint = { fg = colors.cyan },
+    DiagnosticError = { fg = colors.brightRed },
+    DiagnosticWarn = { fg = colors.brightOrange },
+    DiagnosticInfo = { fg = colors.brightBlue },
+    DiagnosticHint = { fg = colors.brightCyan },
 
-    DiagnosticUnderlineError = { sp = colors.red, undercurl = true },
-    DiagnosticUnderlineWarn = { sp = colors.orange, undercurl = true },
-    DiagnosticUnderlineInfo = { sp = colors.black, undercurl = true },
-    DiagnosticUnderlineHint = { sp = colors.cyan, undercurl = true },
+    DiagnosticUnderlineError = { sp = colors.brightRed, undercurl = true },
+    DiagnosticUnderlineWarn = { sp = colors.brightOrange, undercurl = true },
+    DiagnosticUnderlineInfo = { sp = colors.brightBlue, undercurl = true },
+    DiagnosticUnderlineHint = { sp = colors.brightCyan, undercurl = true },
 
     -- Markdown
     markdownCode = { fg = colors.magenta },
