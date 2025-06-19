@@ -29,7 +29,7 @@ local function set_groups()
   local groups = {
     -- Base
     Normal = { fg = colors.black, bg = colors.white },
-    NormalFloat = { bg = colors.white },
+    NormalFloat = { bg = colors.gray },
     FloatBorder = { fg = colors.brightBlack },
     FloatTitle = { fg = colors.black },
     ColorColumn = { bg = colors.brightGray },
@@ -213,7 +213,7 @@ local function set_groups()
     NoiceLspProgressClient = { fg = colors.magenta },
 
     -- WhichKey
-    WhichKeyFloat = { bg = colors.white },
+    WhichKeyFloat = { bg = colors.brightGray },
 
     -- Indent blankline
     IndentBlanklineContextChar = { fg = colors.brightBlack },
